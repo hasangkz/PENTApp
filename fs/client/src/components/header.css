@@ -1,0 +1,49 @@
+.active {
+  background: #90b77d;
+  margin: 0 -0.5rem;
+  padding: 0 0.5rem;
+  color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.pasif {
+  box-shadow: inset 0 0 0 0 #90b77d;
+  color: #90b77d;
+  margin: 0 -0.5rem;
+  padding: 0 0.5rem;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.pasif:hover {
+  box-shadow: inset 160px 0 0 0 #90b77d;
+  color: white;
+}
+
+.out {
+  box-shadow: inset 0 0 0 0 #d24747;
+  color: #d24747;
+  margin: 0 -0.5rem;
+  padding: 0 0.5rem;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.out:hover {
+  box-shadow: inset 160px 0 0 0 #d24747;
+  color: white;
+  margin: 0 -0.5rem;
+  padding: 0 0.5rem;
+}
+
+.login:hover {
+  color: #256d85;
+  opacity: 0.7;
+}
+
+.register:hover {
+  color: #eabe76;
+  opacity: 0.7;
+}
+.img-header {
+  width: 180px;
+  height: 80px;
+  margin-left: 40px;
+  margin-top: 10px;
+}
